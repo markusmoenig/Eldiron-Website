@@ -10,13 +10,13 @@ enableSharingButtons = true
 [params]
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "blog"
 
   # "light" or "dark"
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # Show reading time in minutes for posts
   showReadingTime = false
@@ -29,9 +29,21 @@ enableSharingButtons = true
   #(default is Description or Summary metadata in the front matter)
   # rssFullText = true
 
+  description = "Create classic RPGs with Eldiron"
   homeSubtitle = "Create Your Own RPG"
-
   enableThemeToggle = true
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+  [taxonomies]
+  tag      = "tags"
+  category = "categories"
 
   [[params.social]]
   name = "github"
@@ -55,8 +67,9 @@ enableSharingButtons = true
   [params.footer]
   trademark = true
   copyright = true
+  rss = true
 
-    [params.favicon.color]
+  [params.favicon.color]
     #mask = "#1b1c1d"
     #msapplication = "#1b1c1d"
     #theme = "#1b1c1d"
@@ -65,7 +78,7 @@ enableSharingButtons = true
   [languages.en]
     title = "Eldiron"
     subtitle = ""
-    keywords = "rpg, creator, maker, game"
+    keywords = "rpg, creator, maker, game, ultima"
     copyright = "Markus Moenig"
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -90,13 +103,22 @@ enableSharingButtons = true
         identifier = "about"
         name = "About"
         url = "about"
+        weight = 1
 
       [[languages.en.menu.main]]
         identifier = "features"
         name = "Features"
         url = "features"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "blog"
+        weight = 3
 
       [[languages.en.menu.main]]
         identifier = "book"
-        name = "The Book"
+        name = "Book"
         url = "https://book.eldiron.com"
+        weight = 4
