@@ -18,7 +18,9 @@ title = "Features"
 
 #### Tiles
 
-![Tiles](static/screen_tiles.png)
+{{< image src="static/screen_tiles.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+
+![Tiles](/static/screen_tiles.png)
 
 - Eldiron comes with a variety of tile-maps for your RPG, however you can of course add your own. Currently Eldiron supports square time-maps only.
 - In the tile editor you can assign a role for each tile (like Environment, Road etc.) as well as tags and other meta information.
@@ -27,8 +29,11 @@ title = "Features"
 
 - In the region editor you can create in-game regions like dungeons or cities.
 - Create areas inside a game region and associate behavior nodes to, for example, open doors, spawn monsters or lay traps.
+- Create screen regions which display game regions or game and character status.
 
 #### Characters
+
+-
 
 #### Systems
 
