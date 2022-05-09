@@ -29,7 +29,7 @@ enableSharingButtons = true
   #(default is Description or Summary metadata in the front matter)
   # rssFullText = true
 
-  homeSubtitle = "Create Your Own RPGs"
+  homeSubtitle = "Create Your Own RPG"
 
   #enableThemeToggle = true
 
