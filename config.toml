@@ -31,7 +31,7 @@ enableSharingButtons = true
 
   homeSubtitle = "Create Your Own RPG"
 
-  #enableThemeToggle = true
+  enableThemeToggle = true
 
   [[params.social]]
   name = "github"
