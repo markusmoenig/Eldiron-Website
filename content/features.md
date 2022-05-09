@@ -5,17 +5,20 @@ title = "Features"
 #author = "markusm"
 +++
 
-Eldiron Creator is a cross platform creator for classic RPG games.
+**Eldiron Creator** is a cross platform creator for classic RPG games.
 
 ### General Features
 
 - Create single-player or multi-player experiences.
 - Games run on any desktop, device or browser.
 - A sophisticated behavior node system makes it easy to implement any kind of game logic for areas, characters or systems (crafting, magic etc).
+- Nodes are backed by a full-featured scripting language.
 
 ### Eldiron Creator UI Features
 
 #### Tiles
+
+![Tiles](static/screen_tiles.png)
 
 - Eldiron comes with a variety of tile-maps for your RPG, however you can of course add your own. Currently Eldiron supports square time-maps only.
 - In the tile editor you can assign a role for each tile (like Environment, Road etc.) as well as tags and other meta information.
