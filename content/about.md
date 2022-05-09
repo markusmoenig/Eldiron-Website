@@ -8,6 +8,6 @@ description = "Create your own classic RPGs with Eldiron. A cross platform, open
 
 Create your own classic role playing games (RPGs) with Eldiron, a cross platform and [open source](https://github.com/markusmoenig/Eldiron) RPG Creator written in Rust.
 
-Eldiron is currently under development and not yet ready for public consumption. You can follow the development progress on the official [GitHub](https://github.com/markusmoenig/Eldiron) page.
+Eldiron is currently under development and not yet ready for public consumption. You can follow the development progress on the [blog](/blog).
 
 Join the community on [Discord](https://discord.gg/ZrNj6baSZU) or support the Eldiron project on [Patreon]().

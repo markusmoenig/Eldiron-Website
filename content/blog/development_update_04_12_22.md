@@ -1,6 +1,6 @@
 +++
 title = "Development Update"
-#cover = "logo.png"
+cover = "behavior.png"
 date = "2022-04-12"
 author = "markusm"
 +++
