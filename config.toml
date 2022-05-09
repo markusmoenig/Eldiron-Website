@@ -23,7 +23,7 @@ enableSharingButtons = true
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
-  toc = true
+  # toc = true
 
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)
@@ -77,20 +77,20 @@ enableSharingButtons = true
 
     [languages.en.params.logo]
       logoText = "Eldiron"
-      logoHomeLink = "/"
-      logoCursorColor = "#ffffff"
+      logoHomeLink = ""
+      #logoCursorColor = "#ffffff"
 
     [languages.en.menu]
 
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about"
+        url = "about"
 
       [[languages.en.menu.main]]
         identifier = "features"
         name = "Features"
-        url = "/features"
+        url = "features"
 
       [[languages.en.menu.main]]
         identifier = "book"
