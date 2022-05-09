@@ -1,23 +1,37 @@
 +++
 title = "Features"
-cover = "moody_goes_raiding_3.gif"
-#date = "2019-01-25"
-#author = "Radek"
+#cover = "cover.png"
+#date = "2022-05-09"
+#author = "markusm"
 +++
 
-# Hi there
+Eldiron Creator is a cross platform creator for classic RPG games.
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+### General Features
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+- Create single-player or multi-player experiences.
+- Games run on any desktop, device or browser.
+- A sophisticated behavior node system makes it easy to implement any kind of game logic for areas, characters or systems (crafting, magic etc).
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+### Eldiron Creator UI Features
 
-The theme includes:
+#### Tiles
 
-- **5 duotone themes**, depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice, custom duotone** syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- mobile friendly layout
+- Eldiron comes with a variety of tile-maps for your RPG, however you can of course add your own. Currently Eldiron supports square time-maps only.
+- In the tile editor you can assign a role for each tile (like Environment, Road etc.) as well as tags and other meta information.
 
-So, there you have it... enjoy!
+#### Regions
+
+- In the region editor you can create in-game regions like dungeons or cities.
+- Create areas inside a game region and associate behavior nodes to, for example, open doors, spawn monsters or lay traps.
+
+#### Characters
+
+#### Systems
+
+#### Game
+
+---
+
+For more detailed information please reference the [Eldiron Book](https://book.eldiron.com).
+

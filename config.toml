@@ -45,17 +45,21 @@ enableSharingButtons = true
   name = "patreon"
   url = "https://patreon.com/eldiron"
 
+  [[params.social]]
+  name = "discord"
+  url = "https://discord.gg/ZrNj6baSZU"
+
   [params.portrait]
-  path     = "logo.png"
+  path     = "logo_color.png"
 
   [params.footer]
   trademark = true
   copyright = true
 
     [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+    #mask = "#1b1c1d"
+    #msapplication = "#1b1c1d"
+    #theme = "#1b1c1d"
 
 [languages]
   [languages.en]
@@ -78,7 +82,7 @@ enableSharingButtons = true
     [languages.en.params.logo]
       logoText = "Eldiron"
       logoHomeLink = ""
-      #logoCursorColor = "#ffffff"
+      logoCursorColor = "#2A8BE6"
 
     [languages.en.menu]
 
