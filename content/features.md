@@ -52,7 +52,10 @@ title = "Features"
 
 #### Game
 
-- A specialized node view for the overall game mechanics (WIP).
+![Regions](/devblogmay2022.png)
+
+- A specialized node view for the overall game mechanics.
+.
 
 ---
 
