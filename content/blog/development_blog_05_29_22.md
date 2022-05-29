@@ -43,7 +43,7 @@ As writing scripts got more important I did spend a few days implementing a code
 
 Phew, thats it for **Eldiron** for May. Quite a few big design decisions were made and the architecture of all major parts is being worked on (with the exception of the Items view).
 
-I will execute on the *Game logic* and other parts of **Eldiron** more next month. My goal is to have an online, web based demo of **Eldiron** running at EldironDemo.com by the end of the month. Also the [book](https://book.eldiron.com) will need quite a bit of work to reflect the documentation of the current status.
+I will execute on the *Game logic* and other parts of **Eldiron** more next month. My goal is to have a fully functional visual screen editor as soon as possible. Also the [book](https://book.eldiron.com) will need quite a bit of work to reflect the documentation of the current status.
 
 I also would like to thank my [Patreons](https://patreon.com/eldiron), thank you so much for your trust!
 
