@@ -1,0 +1,130 @@
+baseURL = 'https://eldiron.com'
+languageCode = 'en-us'
+title = 'Eldiron'
+
+theme = "binario"
+paginate = 5
+
+enableSharingButtons = true
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "blog"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 4
+
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+  description = "Create classic RPGs with Eldiron"
+  homeSubtitle = "Create Your Own RPG"
+  enableThemeToggle = true
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+  [taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+  [[params.social]]
+  name = "github"
+  url = "https://github.com/markusmoenig/Eldiron"
+
+  [[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/EldironRPG"
+
+  [[params.social]]
+  name = "patreon"
+  url = "https://patreon.com/eldiron"
+
+  [[params.social]]
+  name = "discord"
+  url = "https://discord.gg/ZrNj6baSZU"
+
+  [params.portrait]
+  path     = "logo_color.png"
+
+  [params.footer]
+  trademark = true
+  copyright = true
+  rss = true
+
+  [params.favicon.color]
+    #mask = "#1b1c1d"
+    #msapplication = "#1b1c1d"
+    #theme = "#1b1c1d"
+
+[languages]
+  [languages.en]
+    title = "Eldiron"
+    subtitle = ""
+    keywords = "rpg, creator, maker, game, ultima"
+    copyright = "Markus Moenig"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "Eldiron"
+      logoHomeLink = ""
+      logoCursorColor = "#2A8BE6"
+
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about"
+        weight = 1
+
+      # [[languages.en.menu.main]]
+      #   identifier = "features"
+      #   name = "Features"
+      #   url = "features"
+      #   weight = 2
+
+      # [[languages.en.menu.main]]
+      #   identifier = "blog"
+      #   name = "Blog"
+      #   url = "blog"
+      #   weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/markusmoenig/Eldiron"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "book"
+        name = "Book"
+        url = "https://book.eldiron.com"
+        weight = 4

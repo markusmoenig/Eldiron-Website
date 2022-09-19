@@ -1,14 +1,8 @@
 +++
-title = "About Eldiron"
-cover = "moody_goes_raiding_3.gif"
-description = "Create your own classic RPGs with Eldiron. A cross platform, open source RPG Creator written in Rust."
-#date = "2022-05-09"
-#author = "markusm"
+title = "About"
+author = "markusm"
+weight = 10
 +++
-
-![bb](/logo_color.png)
-
-## Open Source Classic RPG Creation
 
 Eldiron is currently under active development and a v1 is planned for the first quarter of 2023. Eldiron is open source and licensed under the MIT.
 
@@ -40,3 +34,4 @@ I am currently working on the [Eldiron Book](https://book.eldiron.com). Please r
 ### Supporting Eldiron
 
 You can support the Eldiron project by becoming a [Patreon](https://patreon.com/eldiron) or a [GitHub Sponsor](https://github.com/sponsors/markusmoenig).
+
