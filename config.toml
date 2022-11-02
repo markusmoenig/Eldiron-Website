@@ -102,19 +102,31 @@ enableSharingButtons = true
 [[languages.en.menu.main]]
 
   [[languages.en.menu.main]]
+  identifier = "download"
+  name = "Download"
+  url = "https://github.com/markusmoenig/Eldiron/releases"
+  weight = 1
+
+  [[languages.en.menu.main]]
+  identifier = "patreon"
+  name = "Patreon"
+  url = "https://patreon.com/eldiron"
+  weight = 2
+
+  [[languages.en.menu.main]]
   identifier = "discord"
   name = "Discord"
   url = "https://discord.gg/ZrNj6baSZU"
-  weight = 1
+  weight = 3
 
   [[languages.en.menu.main]]
   identifier = "github"
   name = "GitHub"
   url = "https://github.com/markusmoenig/Eldiron"
-  weight = 3
+  weight = 4
 
 [[languages.en.menu.main]]
   identifier = "book"
   name = "Book"
   url = "https://book.eldiron.com"
-  weight = 4
+  weight = 5
