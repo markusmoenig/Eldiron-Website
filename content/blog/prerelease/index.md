@@ -12,6 +12,8 @@ I have now released v0.70, an official pre-release with missing features. But it
 
 You can download it for Windows and macOS here on [GitHub Releases](https://github.com/markusmoenig/Eldiron/releases).
 
+Linux binaries will be added soon!
+
 Thanks so much for your support and as always you can contact me directly on Discord for support or questions.
 
 Upwards and onwards!
