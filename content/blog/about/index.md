@@ -1,7 +1,7 @@
 +++
 title = "About"
 author = "markusm"
-weight = 10
+weight = 1
 +++
 
 Eldiron is currently under active development and a v1 is planned for the first quarter of 2023. Eldiron is open source and licensed under the MIT.

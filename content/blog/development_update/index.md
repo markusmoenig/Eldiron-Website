@@ -2,6 +2,7 @@
 title = "Development Update"
 date = "2022-09-19"
 author = "markusm"
+weight = 5
 +++
 
 All is going well and I hope to provide a public pre-release within the next 1-2 months. The core components are done, now it is mostly about fleshing out the node and scripting systems which make up the gameplay (which is quite fun).
