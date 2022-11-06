@@ -17,7 +17,8 @@ Eldiron is currently under active development and a v1 is planned for the first 
 
 Retro 3D dungeons and regions will be supported in either v1 or v1.5. I am working on a [procedural language](https://github.com/markusmoenig/RPU) just for that.
 
-Once Eldiron is in early-access you can download it here or on Steam.
+
+You can download the current pre-release in [Releases](https://github.com/markusmoenig/Eldiron/releases).
 
 Join the community on [Discord](https://discord.gg/ZrNj6baSZU) to get in contact.
 
